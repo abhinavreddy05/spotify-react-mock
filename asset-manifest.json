@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/spotify-react-mock/static/css/main.cb11919d.css",
+    "main.js": "/spotify-react-mock/static/js/main.84864592.js",
+    "static/js/787.c3a205db.chunk.js": "/spotify-react-mock/static/js/787.c3a205db.chunk.js",
+    "static/media/album.jpeg": "/spotify-react-mock/static/media/album.79db92d98f4380d22905.jpeg",
+    "static/media/liked.png": "/spotify-react-mock/static/media/liked.4051e5f8e18b05da446e.png",
+    "static/media/GothamMedium.ttf": "/spotify-react-mock/static/media/GothamMedium.0a910c0b9d50be6aa3dc.ttf",
+    "static/media/user.jpg": "/spotify-react-mock/static/media/user.e63e2f6710e7d979ad80.jpg",
+    "static/media/mixes1.jpeg": "/spotify-react-mock/static/media/mixes1.c7b6e0cdef9bdb183c6f.jpeg",
+    "index.html": "/spotify-react-mock/index.html",
+    "main.cb11919d.css.map": "/spotify-react-mock/static/css/main.cb11919d.css.map",
+    "main.84864592.js.map": "/spotify-react-mock/static/js/main.84864592.js.map",
+    "787.c3a205db.chunk.js.map": "/spotify-react-mock/static/js/787.c3a205db.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cb11919d.css",
+    "static/js/main.84864592.js"
+  ]
+}

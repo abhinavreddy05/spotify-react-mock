@@ -1,0 +1,37 @@
+.pricard{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #181818;
+    padding: 16px;
+    border-radius: 6px;
+    transition: all 0.4s ease;
+}
+
+.pricard:hover{
+    background-color: #282828;
+}
+
+.pricard img{
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    border-radius: 3px;
+    box-shadow: 0 0 20px #0000007e;
+}
+
+.pricard h3{
+    margin: 8px 0;
+    font-size: 15px;
+}
+
+.pricard p{
+    font-size: 12px;
+    color: #a6a6a6;
+    margin: 0;
+    padding: 0;
+}

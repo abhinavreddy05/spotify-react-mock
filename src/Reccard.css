@@ -1,0 +1,36 @@
+.reccard{
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #dddddd22;
+    padding-right: 3%;
+    height: 10vh;
+    min-width: 180px;
+    width: 30%;
+    border-radius: 3px;
+    box-shadow: 0 0 20px #0000003d;
+    transition: all 0.4s ease;
+}
+
+.reccard img{
+    height: 100%;
+    border-radius: 3px 0px 0px 3px;
+    box-shadow: 0 0 10px #0000007e;
+}
+
+.reccard .play span{
+    display: none;
+    color: #1bc458;
+    font-size: 30px;
+}
+
+.reccard:hover{
+    background-color: #dddddd66;
+}
+
+.reccard:hover .play span{
+    display: flex;
+    position: relative;
+    left: 1.8vw;
+}

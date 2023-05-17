@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+}
+
+[class*="side-"]{
+    background-color: #121212;
+    width: 100%;
+    padding: 5% 7%;
+    margin: 1.1% 0;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.side-1{height: 22%; margin: 0;}
+.side-2{height: 78%; margin: 0;}
+
+.side-1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.side-1 a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5%;
+    margin: 1% 0;
+    color: #a6a6a6;
+    transition: all 0.25s ease;
+}
+
+.side-1 a:hover{
+    color: white;
+}
+
+.side-1 a span{
+    font-size: 1.2rem;
+}
+
+.side-1 .current{
+    color: white;
+}
+
+.side-1{
+    margin-bottom: 2vh;
+}
+
+.side-2{
+    padding: 3% 7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: space-between;
+}
+
+.side-2 .lib-nav .top div{
+    display: flex;
+    align-items: center;
+}
+
+.side-2 .lib-nav .top{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    color: #a6a6a6;
+}
+
+.side-2 .lib-nav .top div{
+    display: flex;
+    gap: 1vw;
+}
+
+.side-2 .lib-nav .top div .libico{
+    fill: #a6a6a6;
+}
+
+.side-2 .lib-nav .top .lib-ico{
+    display: flex;
+    gap: 2vw;
+}
+
+.side-2 .lib-nav .bottom ul{
+    padding: 0;
+    margin: 1% 0;
+    list-style: none;
+    display: flex;
+    overflow-x: scroll;
+    gap: 1vw;
+    font-size: 0.8rem;
+}
+
+.side-2 .lib-nav .bottom ul li{
+    padding: 10px;
+    margin: 0;
+    background-color: #282828;
+    border-radius: 40px;
+    margin-top: auto;
+    margin-bottom: auto;
+    transition: all 0.25s ease;
+}
+
+.side-2 .lib-nav .bottom ul li:hover{
+    background-color: #323232;
+}
+
+.side-2 .lib-nav .bottom ul li:last-child{
+    opacity: 0.6;
+}
+
+.side-2 .lib-nav .bottom div{
+    margin: 5% 0;
+    color: #a6a6a6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.side-2 .lib-nav .bottom div button{
+    font-size: 14px;
+    color: #a6a6a6;
+    display: flex;
+    align-items: center;
+}
+
+.side-2 .lib{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow-y: scroll;
+}

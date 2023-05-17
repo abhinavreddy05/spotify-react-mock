@@ -1,0 +1,103 @@
+.controls{
+    margin: 0.6% 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.controls .nav{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+.controls .nav button{
+    padding: 0;
+    color: #fff;
+    background-color: #000000ae;
+    opacity: 0.6;
+    border-radius: 100px;
+    box-shadow: none;
+    border: none;
+    height: 35px;
+    width: 35px;
+}
+
+.controls .nav button:hover{
+    opacity: 1;
+}
+
+.controls .profile img{
+    width: 35px;
+    height: 35px;
+    border-radius: 100px;
+    border: solid 4px #0000007e;
+}
+
+.controls .profile img:hover{
+    border-width: 5px;
+}
+
+.welcome h2{
+    margin: 3% 0;
+}
+
+.recommended{
+    margin: 3% 0;
+}
+
+.recommended ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    font-size: 12px;
+}
+
+.mixes {
+    margin-top: 6vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mixes div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mixes div{
+    margin-bottom: 3vh;
+}
+
+.mixes div h3{
+    font-size: 20px;
+}
+
+.mixes div h3:hover{
+    text-decoration: underline;
+}
+
+.mixes div a{
+    margin: 0;
+    padding: 0;
+    color: #a6a6a6;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.mixes div a:hover{
+    text-decoration: underline;
+}
+
+.mixes ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 0;
+    margin: 0;
+    gap: 3%;
+}
+
